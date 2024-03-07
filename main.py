@@ -77,3 +77,11 @@ def generate_text(length, temperature):
         generated += next_character
         sentence = sentence[1:] + next_character
     return generated
+
+print(generate_text(300, 0.2))
+print(generate_text(300, 0.4))
+print(generate_text(300, 0.5))
+print(generate_text(300, 0.6))
+print(generate_text(300, 0.7))
+print(generate_text(300, 0.8))
+
